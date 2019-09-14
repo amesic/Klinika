@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="mojabazaklinikaDataSet" targetNamespace="http://tempuri.org/mojabazaklinikaDataSet1.xsd" xmlns:mstns="http://tempuri.org/mojabazaklinikaDataSet1.xsd" xmlns="http://tempuri.org/mojabazaklinikaDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="mojabazaklinikaConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="mojabazaklinikaConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.FormaKlinika.Properties.Settings.GlobalReference.Default.mojabazaklinikaConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="aparatTableAdapter" GeneratorDataComponentClassName="aparatTableAdapter" Name="aparat" UserDataComponentName="aparatTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="mojabazaklinikaConnectionString (Settings)" DbObjectName="mojabazaklinika.aparat" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT aparat_id, naziv, funkcionalnost FROM aparat</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="doktorTableAdapter" GeneratorDataComponentClassName="doktorTableAdapter" Name="doktor" UserDataComponentName="doktorTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="mojabazaklinikaConnectionString (Settings)" DbObjectName="mojabazaklinika.doktor" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT doktor_id, ime, prezime, plata, ordinacija_id FROM doktor</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="kartonTableAdapter" GeneratorDataComponentClassName="kartonTableAdapter" Name="karton" UserDataComponentName="kartonTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="mojabazaklinikaConnectionString (Settings)" DbObjectName="mojabazaklinika.karton" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT karton_id, pregled_id, ranije_bolesti, ranije_alergije, sadasnje_bolesti, sadasnje_alergije, datum_prijave FROM karton</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="klinikaTableAdapter" GeneratorDataComponentClassName="klinikaTableAdapter" Name="klinika" UserDataComponentName="klinikaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="mojabazaklinikaConnectionString (Settings)" DbObjectName="mojabazaklinika.klinika" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT klinika_id, naziv, doktor_id, ordinacija_id, pacijent_id FROM klinika</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ordinacijaTableAdapter" GeneratorDataComponentClassName="ordinacijaTableAdapter" Name="ordinacija" UserDataComponentName="ordinacijaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="mojabazaklinikaConnectionString (Settings)" DbObjectName="mojabazaklinika.ordinacija" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ordinacija_id, naziv, doktor_id, pacijent_id, cijena, aparat_id FROM ordinacija</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pacijentTableAdapter" GeneratorDataComponentClassName="pacijentTableAdapter" Name="pacijent" UserDataComponentName="pacijentTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="mojabazaklinikaConnectionString (Settings)" DbObjectName="mojabazaklinika.pacijent" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT pacijent_id, ime, prezime, karton_id, racun FROM pacijent</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pregledTableAdapter" GeneratorDataComponentClassName="pregledTableAdapter" Name="pregled" UserDataComponentName="pregledTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="mojabazaklinikaConnectionString (Settings)" DbObjectName="mojabazaklinika.pregled" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT pregled_id, ordinacija_id, dijagnoza, terapija, doktor_id, datum_terapije FROM pregled</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="mojabazaklinikaDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="mojabazaklinikaDataSet" msprop:Generator_UserDSName="mojabazaklinikaDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="aparat" msprop:Generator_TableClassName="aparatDataTable" msprop:Generator_TableVarName="tableaparat" msprop:Generator_TablePropName="aparat" msprop:Generator_RowDeletingName="aparatRowDeleting" msprop:Generator_RowChangingName="aparatRowChanging" msprop:Generator_RowEvHandlerName="aparatRowChangeEventHandler" msprop:Generator_RowDeletedName="aparatRowDeleted" msprop:Generator_UserTableName="aparat" msprop:Generator_RowChangedName="aparatRowChanged" msprop:Generator_RowEvArgName="aparatRowChangeEvent" msprop:Generator_RowClassName="aparatRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="doktor" msprop:Generator_TableClassName="doktorDataTable" msprop:Generator_TableVarName="tabledoktor" msprop:Generator_TablePropName="doktor" msprop:Generator_RowDeletingName="doktorRowDeleting" msprop:Generator_RowChangingName="doktorRowChanging" msprop:Generator_RowEvHandlerName="doktorRowChangeEventHandler" msprop:Generator_RowDeletedName="doktorRowDeleted" msprop:Generator_UserTableName="doktor" msprop:Generator_RowChangedName="doktorRowChanged" msprop:Generator_RowEvArgName="doktorRowChangeEvent" msprop:Generator_RowClassName="doktorRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="karton" msprop:Generator_TableClassName="kartonDataTable" msprop:Generator_TableVarName="tablekarton" msprop:Generator_TablePropName="karton" msprop:Generator_RowDeletingName="kartonRowDeleting" msprop:Generator_RowChangingName="kartonRowChanging" msprop:Generator_RowEvHandlerName="kartonRowChangeEventHandler" msprop:Generator_RowDeletedName="kartonRowDeleted" msprop:Generator_UserTableName="karton" msprop:Generator_RowChangedName="kartonRowChanged" msprop:Generator_RowEvArgName="kartonRowChangeEvent" msprop:Generator_RowClassName="kartonRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="klinika" msprop:Generator_TableClassName="klinikaDataTable" msprop:Generator_TableVarName="tableklinika" msprop:Generator_TablePropName="klinika" msprop:Generator_RowDeletingName="klinikaRowDeleting" msprop:Generator_RowChangingName="klinikaRowChanging" msprop:Generator_RowEvHandlerName="klinikaRowChangeEventHandler" msprop:Generator_RowDeletedName="klinikaRowDeleted" msprop:Generator_UserTableName="klinika" msprop:Generator_RowChangedName="klinikaRowChanged" msprop:Generator_RowEvArgName="klinikaRowChangeEvent" msprop:Generator_RowClassName="klinikaRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ordinacija" msprop:Generator_TableClassName="ordinacijaDataTable" msprop:Generator_TableVarName="tableordinacija" msprop:Generator_TablePropName="ordinacija" msprop:Generator_RowDeletingName="ordinacijaRowDeleting" msprop:Generator_RowChangingName="ordinacijaRowChanging" msprop:Generator_RowEvHandlerName="ordinacijaRowChangeEventHandler" msprop:Generator_RowDeletedName="ordinacijaRowDeleted" msprop:Generator_UserTableName="ordinacija" msprop:Generator_RowChangedName="ordinacijaRowChanged" msprop:Generator_RowEvArgName="ordinacijaRowChangeEvent" msprop:Generator_RowClassName="ordinacijaRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pacijent" msprop:Generator_TableClassName="pacijentDataTable" msprop:Generator_TableVarName="tablepacijent" msprop:Generator_TablePropName="pacijent" msprop:Generator_RowDeletingName="pacijentRowDeleting" msprop:Generator_RowChangingName="pacijentRowChanging" msprop:Generator_RowEvHandlerName="pacijentRowChangeEventHandler" msprop:Generator_RowDeletedName="pacijentRowDeleted" msprop:Generator_UserTableName="pacijent" msprop:Generator_RowChangedName="pacijentRowChanged" msprop:Generator_RowEvArgName="pacijentRowChangeEvent" msprop:Generator_RowClassName="pacijentRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pregled" msprop:Generator_TableClassName="pregledDataTable" msprop:Generator_TableVarName="tablepregled" msprop:Generator_TablePropName="pregled" msprop:Generator_RowDeletingName="pregledRowDeleting" msprop:Generator_RowChangingName="pregledRowChanging" msprop:Generator_RowEvHandlerName="pregledRowChangeEventHandler" msprop:Generator_RowDeletedName="pregledRowDeleted" msprop:Generator_UserTableName="pregled" msprop:Generator_RowChangedName="pregledRowChanged" msprop:Generator_RowEvArgName="pregledRowChangeEvent" msprop:Generator_RowClassName="pregledRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

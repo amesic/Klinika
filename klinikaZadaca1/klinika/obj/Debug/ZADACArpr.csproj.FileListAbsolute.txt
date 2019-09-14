@@ -1,0 +1,18 @@
+c:\users\mesiceva\documents\visual studio 2015\Projects\klinika\klinika\bin\Debug\klinika.exe.config
+c:\users\mesiceva\documents\visual studio 2015\Projects\klinika\klinika\bin\Debug\klinika.exe
+c:\users\mesiceva\documents\visual studio 2015\Projects\klinika\klinika\bin\Debug\klinika.pdb
+c:\users\mesiceva\documents\visual studio 2015\Projects\klinika\klinika\obj\Debug\ZADACArpr.csprojResolveAssemblyReference.cache
+c:\users\mesiceva\documents\visual studio 2015\Projects\klinika\klinika\obj\Debug\klinika.exe
+c:\users\mesiceva\documents\visual studio 2015\Projects\klinika\klinika\obj\Debug\klinika.pdb
+C:\Users\Mesiceva\Desktop\zadacamojarpr\klinika\klinika\bin\Debug\klinika.exe.config
+C:\Users\Mesiceva\Desktop\zadacamojarpr\klinika\klinika\obj\Debug\klinika.exe
+C:\Users\Mesiceva\Desktop\zadacamojarpr\klinika\klinika\obj\Debug\klinika.pdb
+C:\Users\Mesiceva\Desktop\zadacamojarpr\klinika\klinika\obj\Debug\ZADACArpr.csprojResolveAssemblyReference.cache
+C:\Users\Mesiceva\Desktop\zadacamojarpr\klinika\klinika\bin\Debug\klinika.exe
+C:\Users\Mesiceva\Desktop\zadacamojarpr\klinika\klinika\bin\Debug\klinika.pdb
+C:\Users\Mesiceva\Desktop\zadace rpr\zadacamojarpr\klinika\klinika\bin\Debug\klinika.exe.config
+C:\Users\Mesiceva\Desktop\zadace rpr\zadacamojarpr\klinika\klinika\obj\Debug\klinika.exe
+C:\Users\Mesiceva\Desktop\zadace rpr\zadacamojarpr\klinika\klinika\obj\Debug\klinika.pdb
+C:\Users\Mesiceva\Desktop\zadace rpr\zadacamojarpr\klinika\klinika\bin\Debug\klinika.exe
+C:\Users\Mesiceva\Desktop\zadace rpr\zadacamojarpr\klinika\klinika\bin\Debug\klinika.pdb
+C:\Users\Mesiceva\Desktop\zadace rpr\zadacamojarpr\klinika\klinika\obj\Debug\ZADACArpr.csprojResolveAssemblyReference.cache

@@ -1,0 +1,36 @@
+c:\users\mesiceva\documents\visual studio 2015\Projects\FormaKlinika\FormaKlinika\bin\Debug\FormaKlinika.exe.config
+c:\users\mesiceva\documents\visual studio 2015\Projects\FormaKlinika\FormaKlinika\bin\Debug\FormaKlinika.exe
+c:\users\mesiceva\documents\visual studio 2015\Projects\FormaKlinika\FormaKlinika\bin\Debug\FormaKlinika.pdb
+c:\users\mesiceva\documents\visual studio 2015\Projects\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.csprojResolveAssemblyReference.cache
+c:\users\mesiceva\documents\visual studio 2015\Projects\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.Form1.resources
+c:\users\mesiceva\documents\visual studio 2015\Projects\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.Form2.resources
+c:\users\mesiceva\documents\visual studio 2015\Projects\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.Properties.Resources.resources
+c:\users\mesiceva\documents\visual studio 2015\Projects\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.csproj.GenerateResource.Cache
+c:\users\mesiceva\documents\visual studio 2015\Projects\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.exe
+c:\users\mesiceva\documents\visual studio 2015\Projects\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.pdb
+c:\users\mesiceva\documents\visual studio 2015\Projects\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.Form3.resources
+c:\users\mesiceva\documents\visual studio 2015\Projects\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.Form4.resources
+C:\Users\Mesiceva\Desktop\FormaKlinika\FormaKlinika\bin\Debug\FormaKlinika.exe.config
+C:\Users\Mesiceva\Desktop\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.exe
+C:\Users\Mesiceva\Desktop\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.pdb
+C:\Users\Mesiceva\Desktop\FormaKlinika\FormaKlinika\bin\Debug\FormaKlinika.exe
+C:\Users\Mesiceva\Desktop\FormaKlinika\FormaKlinika\bin\Debug\FormaKlinika.pdb
+C:\Users\Mesiceva\Desktop\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.csprojResolveAssemblyReference.cache
+C:\Users\Mesiceva\Desktop\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.Form1.resources
+C:\Users\Mesiceva\Desktop\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.Form2.resources
+C:\Users\Mesiceva\Desktop\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.Form3.resources
+C:\Users\Mesiceva\Desktop\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.Properties.Resources.resources
+C:\Users\Mesiceva\Desktop\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.csproj.GenerateResource.Cache
+C:\Users\Mesiceva\Desktop\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.Form4.resources
+C:\Users\Mesiceva\Desktop\zadacarpr\FormaKlinika\FormaKlinika\bin\Debug\FormaKlinika.exe.config
+C:\Users\Mesiceva\Desktop\zadacarpr\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.exe
+C:\Users\Mesiceva\Desktop\zadacarpr\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.pdb
+C:\Users\Mesiceva\Desktop\zadacarpr\FormaKlinika\FormaKlinika\bin\Debug\FormaKlinika.exe
+C:\Users\Mesiceva\Desktop\zadacarpr\FormaKlinika\FormaKlinika\bin\Debug\FormaKlinika.pdb
+C:\Users\Mesiceva\Desktop\zadacarpr\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.csprojResolveAssemblyReference.cache
+C:\Users\Mesiceva\Desktop\zadacarpr\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.Form1.resources
+C:\Users\Mesiceva\Desktop\zadacarpr\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.Form2.resources
+C:\Users\Mesiceva\Desktop\zadacarpr\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.Form3.resources
+C:\Users\Mesiceva\Desktop\zadacarpr\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.Form4.resources
+C:\Users\Mesiceva\Desktop\zadacarpr\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.Properties.Resources.resources
+C:\Users\Mesiceva\Desktop\zadacarpr\FormaKlinika\FormaKlinika\obj\Debug\FormaKlinika.csproj.GenerateResource.Cache
